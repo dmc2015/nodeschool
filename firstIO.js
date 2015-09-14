@@ -2,7 +2,7 @@ var fs = require('fs');
 
 var babySteps = fs.readFileSync(process.argv[2]);
 
-
+ 
 var babyString = babySteps.toString();
 
 
